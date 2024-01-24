@@ -1,8 +1,24 @@
-import type { AstroIntegration } from "astro";
+import { z } from 'astro/zod'
+import {
+	defineIntegration,
+	createResolver,
+	watchIntegration
+} from 'astro-integration-kit'
 
-export const integration = (): AstroIntegration => {
-	return {
-		name: "package-name",
-		hooks: {},
-	};
-};
+export default defineIntegration({
+	name: 'astro-devtoolbar-tailwind',
+	options: z.object({}).default({}),
+	setup() {
+		const { resolve } = createResolver(import.meta.url)
+
+		return {
+			"astro:config:setup": async ({
+				addDevToolbarApp
+			}) => {
+				await watchIntegration(resolve())
+
+				addDevToolbarApp(resolve('./App.ts'))
+			}
+		}
+	}
+})

@@ -1,0 +1,31 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  ..: {}
+
+  ../../AstroBlogDemo: {}
+
+  ../../FutureThemes.io: {}
+
+  ../../GalaxyDemo: {}
+
+  ../../GalaxyTheme: {}
+
+  ../../GalaxyTheme/src: {}
+
+  ../../TestSite: {}
+
+  ../../Testy: {}
+
+  ../../astro-blog-npm: {}
+
+  ../../astro-blog-plugin: {}
+
+  ../playground: {}

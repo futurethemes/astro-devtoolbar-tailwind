@@ -1,0 +1,35 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      astro-devtoolbar-tailwind:
+        specifier: workspace:*
+        version: link:../package
+
+  ..: {}
+
+  ../../AstroBlogDemo: {}
+
+  ../../FutureThemes.io: {}
+
+  ../../GalaxyDemo: {}
+
+  ../../GalaxyTheme: {}
+
+  ../../GalaxyTheme/src: {}
+
+  ../../TestSite: {}
+
+  ../../Testy: {}
+
+  ../../astro-blog-npm: {}
+
+  ../../astro-blog-plugin: {}
+
+  ../package: {}

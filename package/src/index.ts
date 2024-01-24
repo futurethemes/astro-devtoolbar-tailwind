@@ -1,3 +1,3 @@
-import { integration } from "./integration.js";
+import { default as integration } from "./integration.js";
 
 export default integration;
