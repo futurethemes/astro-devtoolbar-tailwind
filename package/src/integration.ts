@@ -17,7 +17,7 @@ export default defineIntegration({
 			}) => {
 				await watchIntegration(resolve())
 
-				addDevToolbarApp(resolve('./App.js'))
+				addDevToolbarApp('./App.js')
 			}
 		}
 	}

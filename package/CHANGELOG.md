@@ -1,5 +1,11 @@
 # astro-devtoolbar-tailwind
 
+## 0.0.4
+
+### Patch Changes
+
+- remove resolve
+
 ## 0.0.3
 
 ### Patch Changes
