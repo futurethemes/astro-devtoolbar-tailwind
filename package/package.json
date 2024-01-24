@@ -22,12 +22,17 @@
   "exports": {
     ".": "./src/index.ts"
   },
-  "scripts": {},
+  "scripts": {
+    "esbuild:App": "esbuild ./src/App.ts"
+  },
   "type": "module",
   "peerDependencies": {
     "astro": "^4.0.0"
   },
   "dependencies": {
     "astro-integration-kit": "^0.0.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.12"
   }
 }
