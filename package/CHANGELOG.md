@@ -1,5 +1,11 @@
 # astro-devtoolbar-tailwind
 
+## 0.0.6
+
+### Patch Changes
+
+- go back to resolve bc all the cool kids are
+
 ## 0.0.5
 
 ### Patch Changes

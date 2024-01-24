@@ -17,7 +17,7 @@ export default defineIntegration({
 			}) => {
 				await watchIntegration(resolve())
 
-				addDevToolbarApp('astro-devtoolbar-tailwind/app')
+				addDevToolbarApp(resolve('./app.js'))
 			}
 		}
 	}
