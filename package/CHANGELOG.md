@@ -1,5 +1,11 @@
 # astro-devtoolbar-tailwind
 
+## 0.0.8
+
+### Patch Changes
+
+- update path
+
 ## 0.0.7
 
 ### Patch Changes
