@@ -1,6 +1,6 @@
 {
   "name": "astro-devtoolbar-tailwind",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An Astro Dev Toolbar Plugin which let's you edit Tailwind classes in the browser!",
   "author": {
     "name": "jdtjenkins (https://futurethemes.io)",
@@ -20,7 +20,8 @@
   },
   "sideEffects": false,
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./app": "./src/App.ts"
   },
   "scripts": {
     "esbuild:App": "esbuild ./src/App.ts"
