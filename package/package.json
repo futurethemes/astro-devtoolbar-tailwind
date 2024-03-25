@@ -31,7 +31,7 @@
     "astro": "^4.0.0"
   },
   "dependencies": {
-    "astro-integration-kit": "^0.0.6"
+    "astro-integration-kit": "^0.7.1"
   },
   "devDependencies": {
     "esbuild": "^0.19.12"
